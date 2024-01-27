@@ -1,0 +1,10 @@
+# create-argo.yaml
+apiVersion: argoproj.io/v1alpha1
+kind: ArgoCD
+metadata:
+  name: example-argocd
+  namespace: agent
+  labels:
+    example: basic
+spec: {}
+
